@@ -12,6 +12,9 @@ public class App {
         int numOfRuns = 5;
 
         int number = 0;
+        Scanner scanner = new Scanner(System.in);
+
+        int userInput = scanner.nextInt();
 
         while(number < numOfRuns) { // run while loop as long as array length less than numOfGrades
             number = number + 1;
